@@ -24,4 +24,4 @@ npm run preview
 
 ## GitHub Pages
 
-Push the repository to GitHub with `main` as the default branch. In the repository settings, open **Pages** and set **Source** to **GitHub Actions**. Each push to `main` will then build and deploy the site.
+The site is published at <https://trackswap.hrenact.net/>. Pushes to `main` are built and deployed automatically with GitHub Actions.
