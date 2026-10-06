@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
+  appearance: 'force-dark',
   lang: 'zh-CN',
   title: 'TrackSwap VR',
   description: 'TrackSwap VR 使用文档',
