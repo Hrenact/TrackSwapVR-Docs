@@ -1,5 +1,7 @@
-# Getting Started
+# 快速开始
 
-Welcome to the TrackSwap VR documentation.
+欢迎阅读 TrackSwap VR 使用文档。
 
-This site is ready for documentation content.
+本站以简体中文作为主要语言。你可以通过导航栏中的语言菜单切换到 English。
+
+文档内容将持续补充。
