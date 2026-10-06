@@ -1,0 +1,134 @@
+:root {
+  color-scheme: dark;
+
+  /* TrackSwap VR application palette. */
+  --vp-c-bg: #121212;
+  --vp-c-bg-alt: #161616;
+  --vp-c-bg-elv: #1f1f1f;
+  --vp-c-bg-soft: #1a1a1a;
+
+  --vp-c-border: #2c2c2c;
+  --vp-c-divider: #2c2c2c;
+  --vp-c-gutter: #2c2c2c;
+
+  --vp-c-text-1: #d6d6d6;
+  --vp-c-text-2: #929292;
+  --vp-c-text-3: #6f6f6f;
+
+  --vp-c-default-1: #4b4b4b;
+  --vp-c-default-2: #34383d;
+  --vp-c-default-3: #1f1f1f;
+  --vp-c-default-soft: #1a1a1a;
+
+  --vp-c-brand-1: #5b9cff;
+  --vp-c-brand-2: #72aaff;
+  --vp-c-brand-3: #4a6f99;
+  --vp-c-brand-soft: #182538;
+
+  --vp-c-success-1: #4ed18b;
+  --vp-c-success-2: #3cad77;
+  --vp-c-success-3: #2b8058;
+  --vp-c-success-soft: #173126;
+
+  --vp-c-warning-1: #f2b84b;
+  --vp-c-warning-2: #c99436;
+  --vp-c-warning-3: #8f6723;
+  --vp-c-warning-soft: #342a17;
+
+  --vp-c-danger-1: #f07878;
+  --vp-c-danger-2: #c45e5e;
+  --vp-c-danger-3: #8f4141;
+  --vp-c-danger-soft: #341b1d;
+
+  --vp-c-tip-1: #5b9cff;
+  --vp-c-tip-2: #72aaff;
+  --vp-c-tip-3: #4a6f99;
+  --vp-c-tip-soft: #182538;
+
+  --vp-c-note-1: #5b9cff;
+  --vp-c-note-2: #72aaff;
+  --vp-c-note-3: #4a6f99;
+  --vp-c-note-soft: #182538;
+
+  --vp-nav-bg-color: #121212;
+  --vp-nav-screen-bg-color: #121212;
+  --vp-local-nav-bg-color: #121212;
+  --vp-sidebar-bg-color: #161616;
+  --vp-input-bg-color: #1a1a1a;
+  --vp-input-border-color: #2c2c2c;
+
+  --vp-code-color: #72aaff;
+  --vp-code-block-bg: #0f0f0f;
+  --vp-code-line-highlight-color: #182538;
+  --vp-code-copy-code-bg: #1f1f1f;
+  --vp-code-copy-code-hover-bg: #182538;
+
+  --vp-button-brand-border: #5b9cff;
+  --vp-button-brand-text: #101316;
+  --vp-button-brand-bg: #5b9cff;
+  --vp-button-brand-hover-border: #72aaff;
+  --vp-button-brand-hover-text: #101316;
+  --vp-button-brand-hover-bg: #72aaff;
+  --vp-button-brand-active-border: #4a6f99;
+  --vp-button-brand-active-text: #d6d6d6;
+  --vp-button-brand-active-bg: #4a6f99;
+
+  --vp-button-alt-border: #2c2c2c;
+  --vp-button-alt-text: #d6d6d6;
+  --vp-button-alt-bg: #1f1f1f;
+  --vp-button-alt-hover-border: #5b9cff;
+  --vp-button-alt-hover-text: #d6d6d6;
+  --vp-button-alt-hover-bg: #1f1f1f;
+  --vp-button-alt-active-border: #3b5f8a;
+  --vp-button-alt-active-text: #d6d6d6;
+  --vp-button-alt-active-bg: #182538;
+
+  --vp-home-hero-name-color: #5b9cff;
+  --vp-home-hero-name-background: transparent;
+
+  --vp-local-search-bg: #121212;
+  --vp-local-search-result-bg: #1a1a1a;
+  --vp-local-search-result-border: #2c2c2c;
+  --vp-local-search-result-selected-bg: #1f1f1f;
+  --vp-local-search-result-selected-border: #5b9cff;
+  --vp-local-search-highlight-bg: #5b9cff;
+  --vp-local-search-highlight-text: #101316;
+}
+
+.VPButton {
+  border-radius: 3px !important;
+}
+
+.VPFeature {
+  border-color: #2c2c2c !important;
+  border-radius: 4px !important;
+  background-color: #1a1a1a !important;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.VPFeature:hover {
+  border-color: #3b5f8a !important;
+  background-color: #1f1f1f !important;
+}
+
+.VPNavBarSearchButton,
+.DocSearch-Button {
+  border: 1px solid #2c2c2c;
+  border-radius: 3px;
+  background-color: #1a1a1a;
+}
+
+.VPNavBarSearchButton:hover,
+.DocSearch-Button:hover {
+  border-color: #5b9cff;
+  background-color: #1f1f1f;
+}
+
+.vp-doc div[class*='language-'],
+.vp-block {
+  border: 1px solid #2c2c2c;
+}
+
+.custom-block {
+  border-radius: 4px;
+}
