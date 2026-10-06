@@ -3,22 +3,26 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
+  lang: 'zh-CN',
+  title: 'TrackSwap VR',
+  description: 'TrackSwap VR 使用文档',
   locales: {
-    root: {
+    cn: {
       label: '简体中文',
       lang: 'zh-CN',
+      link: '/cn/',
       title: 'TrackSwap VR',
       description: 'TrackSwap VR 使用文档',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/' },
-          { text: '指南', link: '/guide/getting-started' }
+          { text: '首页', link: '/cn/' },
+          { text: '指南', link: '/cn/guide/getting-started' }
         ],
         sidebar: [
           {
             text: '指南',
             items: [
-              { text: '快速开始', link: '/guide/getting-started' }
+              { text: '快速开始', link: '/cn/guide/getting-started' }
             ]
           }
         ],
@@ -70,7 +74,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          root: {
+          cn: {
             translations: {
               button: {
                 buttonText: '搜索文档',

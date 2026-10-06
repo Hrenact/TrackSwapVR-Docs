@@ -1,7 +1,19 @@
-# 快速开始
+---
+layout: false
+title: 页面已移动
+head:
+  - - script
+    - {}
+    - "window.location.replace('/cn/guide/getting-started')"
+  - - meta
+    - http-equiv: refresh
+      content: "0; url=/cn/guide/getting-started"
+  - - meta
+    - name: robots
+      content: noindex
+  - - link
+    - rel: canonical
+      href: https://trackswap.hrenact.net/cn/guide/getting-started
+---
 
-欢迎阅读 TrackSwap VR 使用文档。
-
-本站以简体中文作为主要语言。你可以通过导航栏中的语言菜单切换到 English。
-
-文档内容将持续补充。
+<a href="/cn/guide/getting-started">前往新的中文页面</a>
